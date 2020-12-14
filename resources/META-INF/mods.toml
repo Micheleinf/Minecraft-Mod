@@ -1,0 +1,48 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="themichelemod" #mandatory
+
+version="1.15.2.1-1.0.0" #mandatory
+
+displayName="The Michele Mod" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="https://github.com/Micheleinf" #optional
+
+logoFile="minecarftmodlogo.png" #optional
+
+credits="just me and this guy on youtube named Technovision" #optional
+
+authors="Michele Biondi" #optional
+
+description='''
+This a Minecraft Mod made at the BBBaden for Lernatelier
+BY MICHELE
+'''
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[31,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
